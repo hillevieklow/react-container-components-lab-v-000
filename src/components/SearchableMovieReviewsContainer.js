@@ -9,14 +9,14 @@ const URL = 'https://api.nytimes.com/svc/movies/v2/reviews/search.json?'
 // Code SearchableMovieReviewsContainer Here
 
 class SearchableMovieReviewsContainer extends Component {
-constructor() {
-super()
+  constructor() {
+    super()
 
-this.state = {
-reviews: [],
-searchTerm: ''
-}
-}
+    this.state = {
+      reviews: [],
+      searchTerm: ''
+    }
+  }
 
 handleSearchInputChange = event => this.setState({ searchTerm: event.target.value })
 
