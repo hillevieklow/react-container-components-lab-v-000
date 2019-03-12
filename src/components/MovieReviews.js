@@ -16,4 +16,4 @@ import React from 'react'
     </div>
   )
 
-  export default MovieReviews
+export default MovieReviews
